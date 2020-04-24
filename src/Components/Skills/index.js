@@ -3,7 +3,7 @@ import './skills.scss'
 
 const Skills = () => {
   return (
-    <div>
+    <div className='skills'>
       <h1>hey</h1>
     </div>
   )
