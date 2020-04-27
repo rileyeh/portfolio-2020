@@ -1,7 +1,40 @@
+@import '../../styles/colors.scss', '../../styles/mixins.scss';
+
 header {
     height: 75px;
     width: 100%;
-    background-color: purple;
+    background-color: $accent-blue;
     position: sticky;
     top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: white;
+
+    h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    nav {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            &:hover{
+                color: $green;
+                cursor: pointer;
+            }
+
+            &:active {
+                color: $pink;
+            }
+        }
+    }
+}
+
+.super-secret {
+    color: black;
 }

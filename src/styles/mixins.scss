@@ -1,0 +1,16 @@
+@mixin flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@mixin dotted-back {
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle, $accent-blue 1px, rgba(0, 0, 0, 0) 1px);
+}
+
+@mixin grid-back {
+    background-size: 15px 15px;
+  background-image: linear-gradient(to right, $accent-blue 1px, transparent 1px), linear-gradient(to bottom, $accent-blue 1px, transparent 1px);
+}
