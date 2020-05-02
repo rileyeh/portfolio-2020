@@ -8,7 +8,6 @@ const Desktop = () => {
                     <li>
                         <Link 
                             to='about'
-                            activeClass='super-secret'
                             smooth={true} 
                             offset={-100}
                             duration={500}

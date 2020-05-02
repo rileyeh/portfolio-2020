@@ -2,5 +2,19 @@
 
 .about {
     height: 500px;
-    background-color: yellow;
+    background-color: white;
+    @include flex-box;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    img {
+        width: 50vw;
+        margin: 10px;
+    }
+
+    p {
+        padding: 0 25px;
+        line-height: 1.25;
+        color: $dark-blue;
+    }
 }

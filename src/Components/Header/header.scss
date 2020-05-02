@@ -11,30 +11,9 @@ header {
     justify-content: space-between;
     padding: 0 20px;
     color: white;
+    z-index: 1000;
 
     h1 {
-        font-size: 24px;
-        font-weight: 700;
+        padding-top: 0;
     }
-
-    nav {
-        width: 30%;
-        display: flex;
-        justify-content: space-between;
-
-        li {
-            &:hover{
-                color: $green;
-                cursor: pointer;
-            }
-
-            &:active {
-                color: $pink;
-            }
-        }
-    }
-}
-
-.super-secret {
-    color: black;
 }

@@ -1,6 +1,55 @@
 @import '../../styles/colors.scss', '../../styles/mixins.scss';
 
 .projects {
-    height: 500px;
-    background-color: orange;
+    background-color: $grey;
+    padding-bottom: 10px;
+
+    h2 {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 12px;
+    }
+
+    h4 {
+        margin: 12px;
+    }
+
+    p {
+        margin: 10px 20px;
+        
+    }
+
+    .little-line {
+        height: 1px;
+        width: 80%;
+        background-color: $dark-blue;
+        margin: 0 auto;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        button {
+            color: $dark-blue;
+            width: 80px;
+            height: 40px;
+            border: none;
+            background-color: $green;
+
+            &:visited {
+                color: $dark-blue;
+            }
+
+            &:active {
+                color: $dark-blue;
+            }
+
+            &:hover {
+                background-color: $pink;
+            }
+        }
+    }
 }

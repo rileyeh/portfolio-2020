@@ -11,6 +11,6 @@
 }
 
 @mixin grid-back {
-    background-size: 15px 15px;
+    background-size: 8px 8px;
   background-image: linear-gradient(to right, $accent-blue 1px, transparent 1px), linear-gradient(to bottom, $accent-blue 1px, transparent 1px);
 }

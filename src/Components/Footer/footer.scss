@@ -3,7 +3,9 @@
 .footer {
     width: 100vw;
     height: 100px;
-    background-color: green;
+    background-color: $pink;
     position: absolute;
     bottom: 0;
+    color: $dark-blue;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
