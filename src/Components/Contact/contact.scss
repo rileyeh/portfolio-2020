@@ -30,3 +30,13 @@
         }
     }
 }
+
+
+@media screen and (min-width: 550px) {
+    .contact {
+        section {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+    }
+ }

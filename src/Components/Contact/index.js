@@ -8,7 +8,7 @@ const Contact = () => {
     <div className='contact'>
         <h1>Contact</h1>
         <div className='line'></div>
-        <h2>rileyehatch@gmail.com</h2>
+        <a href='mailto:rileyehatch@gmail.com'><h2>rileyehatch@gmail.com</h2></a>
         <section>
         <a href='https://www.linkedin.com/in/riley-hatch-dev'>
             <img src={linkedinicon} alt='link to linkedin'/>

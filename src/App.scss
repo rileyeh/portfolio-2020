@@ -73,14 +73,14 @@ a {
   main {
     width: 100vw;
     min-height: 100vh;
-    margin: 3vw;
+    margin: 2vw;
     background-color: $accent-blue;
   }
 }
 
 .line {
   height: 3px;
-  width: 325px;
+  width: 60vw;
   background: linear-gradient(to right, $yellow, $green);
   margin: 10px auto;
 }

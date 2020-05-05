@@ -11,7 +11,7 @@ const Nav = () => {
     }, [])
 
     const setDisplay = () => {
-        window.innerWidth > 500
+        window.innerWidth > 525
         ?
         setDesktop(true)
         :

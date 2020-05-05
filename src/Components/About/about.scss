@@ -18,3 +18,24 @@
         color: $dark-blue;
     }
 }
+
+@media screen and (min-width: 550px) {
+    .about {
+        
+        img {
+            width: 275px;
+        }
+        
+        p {
+            width: 50%;
+        }
+        
+        section {
+            max-width: 1000px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 40px;
+        }
+    }
+  }

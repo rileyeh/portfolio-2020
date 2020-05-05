@@ -132,7 +132,7 @@ const style = {
         alignItems: 'center'
     },
     photo: {
-        width: '80%',
+        width: '60%',
         margin: '0 auto',
         marginTop: 20
     },
