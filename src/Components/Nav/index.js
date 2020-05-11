@@ -4,12 +4,8 @@ import Desktop from './Desktop'
 import Mobile from './Mobile'
 
 const Nav = () => {
-    const [desktop, setDesktop] = useState('')
-
-    useEffect(() => {
-       window.addEventListener('resize', setDisplay)
-    }, [])
-
+    const [desktop, setDesktop] = useState(true)
+    
     const setDisplay = () => {
         window.innerWidth > 525
         ?
@@ -17,6 +13,11 @@ const Nav = () => {
         :
         setDesktop(false)
     }
+
+    useEffect(() => {
+       window.addEventListener('resize', setDisplay)
+       setDisplay()
+    }, [desktop])
 
     return (
         <div>
